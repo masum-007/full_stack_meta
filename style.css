@@ -1,0 +1,61 @@
+/* 1. Element Selector */
+p {
+  color: gray;
+}
+
+/* 2. ID Selector */
+#main-title {
+  color: darkblue;
+  text-align: center;
+}
+
+/* 3. Class Selector */
+.player {
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  display: inline-block;
+}
+
+/* 4. Element with Class Selector */
+p.intro {
+  font-style: italic;
+  color: green;
+}
+
+/* 5. Descendant Selector */
+#blog h1 {
+  color: blue;
+}
+
+/* 6. Multiple Descendant */
+#blog div h1 {
+  color: purple;
+}
+
+/* 7. Child Selector */
+#blog > h1 {
+  color: red;
+}
+
+/* 8. Hover Pseudo-Class */
+a:hover {
+  color: orange;
+}
+h1 {
+  color: green;
+}
+.cr7 {
+  color: white;
+  padding: 5px 10px;
+  background-color: black;
+}
+h2 {
+  color: rgb(4, 104, 99);
+}
+#lm10 {
+  color: brown;
+}
+#king {
+  color: darkorange;
+}
