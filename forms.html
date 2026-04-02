@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/registration" method="post">
+      <label for="username">Username:</label>
+      <input type="text" name="username" id="username" /><br /><br />
+
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" /><br />
+
+      <input type="radio" name="gender" id="male" value="male" />
+      <label for="male">I am male</label><br />
+
+      <input type="radio" name="gender" id="female" value="female" />
+      <label for="female">I am female</label><br />
+
+      <input type="radio" name="gender" id="other" value="other" />
+      <label for="other">Prefer not say</label><br />
+
+      <input
+        type="checkbox"
+        name="f_player"
+        id="Cristiano Ronaldo"
+        value="Cristiano Ronaldo"
+      />
+      <label for="Cristiano Ronaldo">Cristiano Ronaldo</label>
+
+      <input
+        type="checkbox"
+        name="f_player"
+        id="Lionel Messi"
+        value="Lionel Messi"
+      />
+      <label for="Lionel Messi">Lionel Messi</label>
+
+      <input type="checkbox" name="f_player" id="Neymar Jr" value="Neymar Jr" />
+      <label for="Neymar Jr">Neymar jr</label><br />
+
+      <label for="food">Favorite food</label>
+      <select name="food" id="food">
+        <option value="Ice cream">Ice cream</option>
+        <option value="Chocolate">Chocolate</option>
+        <option value="Candy">Candy</option></select
+      ><br />
+
+      <input type="submit" />
+    </form>
+  </body>
+</html>
